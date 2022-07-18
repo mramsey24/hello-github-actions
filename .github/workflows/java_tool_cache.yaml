@@ -22,4 +22,4 @@ jobs:
       - name: Upload tool cache artifact
         uses: actions/upload-artifact@v2
         with:
-          path: ${{runner.tool_cache}}/tool_cache_java.tar.gz
+          path: ${{runner.tool_cache}}/tool_cach.tar.gz
