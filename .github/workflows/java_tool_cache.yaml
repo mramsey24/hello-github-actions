@@ -2,7 +2,7 @@ name: Store Java tool
 on: [workflow_dispatch]
 jobs:
   upload_tool_cache:
-    runs-on: ubuntu-18.04
+    runs-on: windows-latest
     steps:
       - name: Clear any existing tool cache
         run: |
